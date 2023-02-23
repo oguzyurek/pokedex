@@ -1,22 +1,15 @@
-div{
-    padding: 5px;
-  
-}
 
 
 .Pokecard{
     border-radius:7%;
-    max-width: 250px;
-    max-height: 300;
+    max-width: 150px;
+    
     background-color: rgba(237, 255, 118, 0.266);
      border: .5px black solid;
      flex-direction: column;
  display: flex;
  justify-content:center;
  text-align: center;
+margin: 10px;
  
-}
-
-img{
-    margin: 10px;
 }
