@@ -34,10 +34,16 @@ class Pokegame extends Component {
     return (
       <div>
         <h1 className="h1">Pokegame!</h1>
+
         <div>
-          <Pokedex pokemon={hand1} exp={exp1} />
-          <hr></hr>
-          <Pokedex pokemon={hand2} exp={exp2} />
+          <div>
+            <h2></h2>
+            <Pokedex pokemon={hand1} exp={exp1} isWinner={exp1 > exp2} />
+          </div>
+
+          <div>
+            <Pokedex pokemon={hand2} exp={exp2} isWinner={exp2 > exp1} />
+          </div>
         </div>
       </div>
     );
