@@ -1,15 +1,22 @@
 
 
 .Pokecard{
-    border-radius:7%;
-    max-width: 150px;
-    
-    background-color: rgba(237, 255, 118, 0.266);
-     border: .5px black solid;
-     flex-direction: column;
+ border-radius:7%;
+ width: 200px;
+background-color: rgba(237, 255, 118, 0.266);
+ border: .5px black solid;
+ flex-direction: column;
  display: flex;
  justify-content:center;
  text-align: center;
+ padding: 10px;
 margin: 10px;
+box-shadow: 7px 10px 12px -5px rgb(0, 0, 0);
  
+}
+
+.pokedex{
+    display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
 }
